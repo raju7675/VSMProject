@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ccf0daf44a6d4e80aee76483b53cc23c" Name="Diagram1">
+        <EntityTypeShape EntityType="VMSDataBaseProjectModel.BillInfo" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VMSDataBaseProjectModel.CustomerMaster" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="VMSDataBaseProjectModel.ItemsInfo" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VMSDataBaseProjectModel.ServiceRecordInfo" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VMSDataBaseProjectModel.ServiceRepInfo" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VMSDataBaseProjectModel.VechileMaster" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="VMSDataBaseProjectModel.FK__BillInfo__ItemId__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="VMSDataBaseProjectModel.FK__BillInfo__Servic__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="VMSDataBaseProjectModel.FK__ServiceRe__CustI__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="VMSDataBaseProjectModel.FK__VechileMa__CustI__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="VMSDataBaseProjectModel.FK__ServiceRe__Modal__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="VMSDataBaseProjectModel.FK__ServiceRe__Servi__2E1BDC42" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

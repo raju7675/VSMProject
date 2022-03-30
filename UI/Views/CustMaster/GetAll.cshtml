@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DataAccessLayer.CustomerMaster>
+@{
+    Layout = "~/Views/Shered/_LayoutPage1.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/umd/popper.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <title>Get All Customer Deatils</title>
+</head>
+<body>
+    <h2>Customer Details</h2>
+    <div>
+        <table>
+            <tr>
+                <th>CustID</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>ContactNo</th>
+                <th>Email</th>
+            </tr>
+            @foreach (var cust in Model)
+            {
+                <tr>
+                    <td>@cust.CustId</td>
+                    <td>@cust.FirstName</td>
+                    <td>@cust.LastName</td>
+                    <td>@cust.Country</td>
+                    <td>@cust.State</td>
+                    <td>@cust.City</td>
+                    <td>@cust.ContactNo</td>
+                    <td>@cust.Email</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+D:\raju\MVC\VMSProject\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\raju\MVC\VMSProject\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\raju\MVC\VMSProject\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\raju\MVC\VMSProject\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\raju\MVC\VMSProject\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\raju\MVC\VMSProject\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\raju\MVC\VMSProject\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\raju\MVC\VMSProject\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\raju\MVC\VMSProject\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\raju\MVC\VMSProject\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\raju\MVC\VMSProject\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\raju\MVC\VMSProject\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
